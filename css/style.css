@@ -240,7 +240,7 @@ footer{
 	align-items: center;
 	position: absolute;
 	top: 30px;
-	right: 10px;
+	right: 5px;
 	display: block;
 
 }
@@ -250,12 +250,12 @@ footer{
 	position: absolute;
 	width: 180px;
 	top: 20px;
-	left: 10px;
+	left: 5px;
 	display: block;
 }
 .overlay{
 	background-color: rgba(0,0,0,0.6);
-	padding: 200px  0px;
+	padding: 220px  0px;
 	position: relative;
 	display: block;
 
@@ -264,7 +264,7 @@ footer{
 #overlayContent{
 	color: #fff;
 	position: absolute;
-	top: 170px;
+	top: 190px;
 	right: 90px;
 	font-size: 14px;
 	display: block;
