@@ -218,7 +218,6 @@ footer{
 
 #header{
 	background: url("../images/mobile-banner.jpg") no-repeat center center/cover;
-	padding: 0px -10px;
 	display: block;	
 }
 
@@ -241,7 +240,7 @@ footer{
 	align-items: center;
 	position: absolute;
 	top: 30px;
-	right: 10px;
+	right: 30px;
 	display: block;
 
 }
