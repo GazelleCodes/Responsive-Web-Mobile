@@ -218,6 +218,7 @@ footer{
 
 #header{
 	background: url("../images/mobile-banner.jpg") no-repeat center center/cover;
+	padding: 0px -10px;
 	display: block;	
 }
 
