@@ -255,7 +255,7 @@ footer{
 }
 .overlay{
 	background-color: rgba(0,0,0,0.6);
-	padding: 190px;
+	padding: 200px  0px;
 	position: relative;
 	display: block;
 
