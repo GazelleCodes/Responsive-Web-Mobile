@@ -3,6 +3,14 @@
 	box-sizing: border-box;
 }
 
+h1,h2{
+	font-family: "Oleo Script", system-ui;
+}
+
+p{
+	font-family: "Crimson Text", serif;
+}
+
 #wrapper{
 	margin-left: auto;
     margin-right: auto;
@@ -19,6 +27,7 @@
 	background-color: rgba(0,0,0,0.6);
 	padding: 300px;
 	position: relative;
+	display: block;
 
 }
 
@@ -36,21 +45,13 @@
 	display: block;
 }
 
-#logo2 >img{
-	position: absolute;
-	width: 200px;
-	top: 30px;
-	left: 80px;
-	display: none;
-}
-
 #overlayContent{
 	color: #fff;
-    width: 50%;
 	position: absolute;
-	right: 250px;
-	top: 250px;
-	display:block;
+	top: 300px;
+	right: 450px;
+	display: block;
+	
 }
 
 
@@ -60,6 +61,7 @@
   top: 50px;
   right: 80px;
   display: block;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 
@@ -125,6 +127,8 @@
 
 .section-title >h2{
 	margin: 10px 0px;
+	font-size: 30px;
+	display: block;
 
 }
 .image-container2 > img{
@@ -192,7 +196,7 @@
 .content-prize >p{
 	color: #fff;
 	background: red;
-	padding: 5px;
+	padding: 10px;
 	border-radius: 5px;
 }
 
@@ -214,7 +218,6 @@ footer{
 
 #header{
 	background: url("../images/mobile-banner.jpg") no-repeat center center/cover;
-	padding: 0px -10px;
 	display: block;	
 }
 
@@ -236,37 +239,134 @@ footer{
 	justify-content: center;
 	align-items: center;
 	position: absolute;
-	top: 40px;
-	right: 130px;
+	top: 30px;
+	right: 10px;
 	display: block;
 
 }
 
+
 #logo >img{
 	position: absolute;
-	width: 200px;
-	top: 30px;
-	left: 80px;
-	display: none;
+	width: 180px;
+	top: 20px;
+	left: 20px;
+	display: block;
+}
+.overlay{
+	background-color: rgba(0,0,0,0.6);
+	padding: 200px;
+	position: relative;
+	display: block;
+
 }
 
-#logo2 >img{
+#overlayContent{
+	color: #fff;
 	position: absolute;
-	width: 200px;
-	top: 30px;
+	top: 170px;
+	right: 70px;
+	font-size: 14px;
+	display: block;
+	
+}
+.section-title >h2{
+	margin: 10px 0px;
+	font-size: 24px;
+	display: block;
+
+}
+
+}
+
+@media only screen and (min-width: 600px) and (max-width:768px) {
+	#logo >img{
+	position: absolute;
+	width: 180px;
+	top: 20px;
 	left: 10px;
 	display: block;
 }
 
 
-#overlayContent{
+#navigation{
+  text-decoration: none;
+  position: absolute;
+  top: 50px;
+  right: 80px;
+  display: none;
+}
+
+#navBtn{
+	background:#E3EAE9;
+	color: #000;
+	padding: 10px 20px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: absolute;
-	right: 200px;
-	top: 200px;
+	top: 30px;
+	right: 10px;
 	display: block;
 
+}
 
+#overlayContent{
+	width: 50%
+	color: #fff;
+	position: absolute;
+	top: 280px;
+	right: 100px;
+	font-size: 16px;
+	display: block;
+	
+}
+
+}
+@media only screen and (min-width:768px) and (max-width:992px) {
+	#logo >img{
+	position: absolute;
+	width: 180px;
+	top: 20px;
+	left: 5px;
+	display: block;
 }
 
 
+#navigation{
+  text-decoration: none;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  display: block;
 }
+
+#navBtn{
+	background:#E3EAE9;
+	color: #000;
+	padding: 10px 20px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 30px;
+	right: 10px;
+	display: none;
+
+}
+
+#overlayContent{
+	width: 50%
+	color: #fff;
+	position: absolute;
+	top: 300px;
+	right: 270px;
+	font-size: 16px;
+	display: block;
+	
+}
+
+}
+
