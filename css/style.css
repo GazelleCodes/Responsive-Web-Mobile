@@ -3,18 +3,23 @@
 	box-sizing: border-box;
 }
 
-h1,h2{
+h1,h2 {
 	font-family: "Oleo Script", system-ui;
 }
 
 p{
-	font-family: "Crimson Text", serif;
+	font-family: "Inconsolata", monospace;
 }
 
 #wrapper{
 	margin-left: auto;
     margin-right: auto;
    
+}
+
+.overlayItems{
+	display: flex;
+	justify-content: space-between;
 }
 
 #header{
@@ -25,15 +30,10 @@ p{
 
 .overlay{
 	background-color: rgba(0,0,0,0.6);
-	padding: 300px;
+	padding: 250px;
 	position: relative;
 	display: block;
 
-}
-
-.overlayItems{
-	display: flex;
-	justify-content: space-between;
 }
 
 
@@ -45,15 +45,6 @@ p{
 	display: block;
 }
 
-#overlayContent{
-	color: #fff;
-	position: absolute;
-	top: 300px;
-	right: 450px;
-	display: block;
-	
-}
-
 
 #navigation{
   text-decoration: none;
@@ -61,7 +52,7 @@ p{
   top: 50px;
   right: 80px;
   display: block;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Oleo Script", system-ui;
 }
 
 
@@ -85,18 +76,35 @@ p{
   padding: 10px 12px;
   text-decoration: none;
   border-style: none;
-  font-family: arial, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
+  font-family: "Oleo Script", system-ui;
+  font-weight: bold;
   cursor: pointer;
 }
 
 
+#overlayContent{
+	width: 70%;
+	color: #fff;
+	margin: 5px auto 0 auto;
+	text-align: center;
+	display: block;
+	
+}
 
+#overlayContent h1{
+	font-size: 4rem;
+}
 
+#overlayContent p{
+	font-size: 1.5rem;
+}
 
 #menu{
 	background: #AFAEAE;
-	padding: 20px 0px;
+	padding-top: 50px;
+	padding-bottom: 25px;
+
 }
 
 .section-title{
@@ -120,14 +128,14 @@ p{
 
 #comment{
 	background: #6D6868;
-	padding: 40px 0px;
+	padding: 30px 0px;
 	color: #fff;
 
 }
 
 .section-title >h2{
-	margin: 10px 0px;
-	font-size: 30px;
+	margin-bottom: 30px;
+	font-size: 40px;
 	display: block;
 
 }
@@ -191,12 +199,13 @@ p{
 .content-prize >span{
 	color: #0E9330;
 	font-weight: bold;
+	margin-top: 20px;
 }
 
 .content-prize >p{
 	color: #fff;
 	background: red;
-	padding: 10px;
+	padding: 8px;
 	border-radius: 5px;
 }
 
@@ -231,9 +240,10 @@ footer{
 
 
 #navBtn{
-	background:#E3EAE9;
-	color: #000;
-	padding: 10px 20px;
+	background:transparent;
+	color: #fff;
+	font-size: 30px;
+	padding: 2px 20px;
 	border-radius: 5px;
 	display: flex;
 	justify-content: center;
@@ -260,19 +270,26 @@ footer{
 	display: block;
 
 }
-
 #overlayContent{
+	width: 50%;
 	color: #fff;
-	position: absolute;
-	top: 190px;
-	right: 50px;
-	font-size: 14px;
+	margin: 5px auto 0 auto;
+	text-align: center;
 	display: block;
-	
 }
+
+#overlayContent h1{
+	font-size: 35px;
+	display: block;
+}
+#overlayContent p{
+	font-size: 18px;
+	display: block;
+}
+
 .section-title >h2{
-	margin: 10px 0px;
-	font-size: 24px;
+	margin-bottom: 10px;
+	font-size: 30px;
 	display: block;
 
 }
@@ -297,10 +314,12 @@ footer{
   display: none;
 }
 
+
 #navBtn{
-	background:#E3EAE9;
-	color: #000;
-	padding: 10px 20px;
+	background:transparent;
+	color: #fff;
+	font-size: 40px;
+	padding: 2px 20px;
 	border-radius: 5px;
 	display: flex;
 	justify-content: center;
@@ -311,21 +330,29 @@ footer{
 	display: block;
 
 }
-
 #overlayContent{
-	width: 50%
+	width: 50%;
 	color: #fff;
-	position: absolute;
-	top: 280px;
-	right: 100px;
-	font-size: 16px;
+	margin: 5px auto 0 auto;
+	text-align: center;
 	display: block;
 	
 }
 
+.overlay{
+	background-color: rgba(0,0,0,0.6);
+	padding: 220px  0px;
+	position: relative;
+	display: block;
+
 }
-@media only screen and (min-width:768px) and (max-width:992px) {
-	#logo >img{
+
+
+
+}
+@media only screen and (min-width:768px) and (min-width:992px) {
+
+#logo >img{
 	position: absolute;
 	width: 180px;
 	top: 20px;
@@ -337,6 +364,7 @@ footer{
 #navigation{
   text-decoration: none;
   position: absolute;
+  font-family: "Oleo Script", system-ui;
   top: 40px;
   right: 10px;
   display: block;
@@ -358,15 +386,15 @@ footer{
 }
 
 #overlayContent{
-	width: 50%
+	width: 80%;
 	color: #fff;
-	position: absolute;
-	top: 300px;
-	right: 270px;
-	font-size: 16px;
+	margin: 5px auto 0 auto;
+	text-align: center;
 	display: block;
 	
 }
+
+
 
 }
 
