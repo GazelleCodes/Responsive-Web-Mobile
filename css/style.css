@@ -265,13 +265,13 @@ footer{
 }
 .overlay{
 	background-color: rgba(0,0,0,0.6);
-	padding: 220px  0px;
+	padding: 180px  0px;
 	position: relative;
 	display: block;
 
 }
 #overlayContent{
-	width: 50%;
+	width: 60%;
 	color: #fff;
 	margin: 5px auto 0 auto;
 	text-align: center;
@@ -279,11 +279,11 @@ footer{
 }
 
 #overlayContent h1{
-	font-size: 35px;
+	font-size: 40px;
 	display: block;
 }
 #overlayContent p{
-	font-size: 18px;
+	font-size: 20px;
 	display: block;
 }
 
