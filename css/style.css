@@ -274,13 +274,15 @@ footer{
 #overlayContent{
 	width: 70%;
 	color: #fff;
-	margin: 5px auto 0 auto;
+	padding-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
 	display: block;
 }
 
 #overlayContent h1{
-	font-size: 30px;
+	font-size: 28px;
 	display: block;
 }
 #overlayContent p{
@@ -290,7 +292,7 @@ footer{
 
 .section-title >h2{
 	margin-bottom: 10px;
-	font-size: 30px;
+	font-size: 25px;
 	display: block;
 
 }
@@ -358,11 +360,11 @@ footer{
 }
 
 #overlayContent h1{
-	font-size: 33px;
+	font-size: 28px;
 	display: block;
 }
 #overlayContent p{
-	font-size: 16px;
+	font-size: 15px;
 	display: block;
 }
 
@@ -432,11 +434,11 @@ footer{
 }
 
 #overlayContent h1{
-	font-size: 42px;
+	font-size: 35px;
 	display: block;
 }
 #overlayContent p{
-	font-size: 18px;
+	font-size: 16px;
 	display: block;
 }
 
