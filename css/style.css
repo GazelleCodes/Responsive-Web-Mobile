@@ -8,13 +8,13 @@ h1,h2 {
 }
 
 p{
-	font-family: "Inconsolata", monospace;
+	font-family: "Verdana", sans-serif;
 }
 
 #wrapper{
 	margin-left: auto;
     margin-right: auto;
-   
+
 }
 
 .overlayItems{
@@ -50,7 +50,7 @@ p{
   text-decoration: none;
   position: absolute;
   top: 50px;
-  right: 80px;
+  right: 100px;
   display: block;
   font-family: "Oleo Script", system-ui;
 }
@@ -89,15 +89,15 @@ p{
 	margin: 5px auto 0 auto;
 	text-align: center;
 	display: block;
-	
+
 }
 
 #overlayContent h1{
-	font-size: 4rem;
+	font-size: 3.1rem;
 }
 
 #overlayContent p{
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 
 #menu{
@@ -265,13 +265,14 @@ footer{
 }
 .overlay{
 	background-color: rgba(0,0,0,0.6);
+	padding: 220px  0px;
 	padding: 180px  0px;
 	position: relative;
 	display: block;
 
 }
 #overlayContent{
-	width: 60%;
+	width: 70%;
 	color: #fff;
 	margin: 5px auto 0 auto;
 	text-align: center;
@@ -279,11 +280,11 @@ footer{
 }
 
 #overlayContent h1{
-	font-size: 40px;
+	font-size: 30px;
 	display: block;
 }
 #overlayContent p{
-	font-size: 20px;
+	font-size: 18px;
 	display: block;
 }
 
@@ -297,7 +298,16 @@ footer{
 }
 
 @media only screen and (min-width: 600px) and (max-width:768px) {
-	#logo >img{
+#header{
+	background: url("../images/large-screen-banner.png") no-repeat center center/cover;	
+	display: none;
+}
+
+#header{
+	background: url("../images/mobile-banner.jpg") no-repeat center center/cover;
+	display: block;	
+}
+#logo >img{
 	position: absolute;
 	width: 180px;
 	top: 20px;
@@ -331,12 +341,12 @@ footer{
 
 }
 #overlayContent{
-	width: 50%;
+	width: 60%;
 	color: #fff;
 	margin: 5px auto 0 auto;
 	text-align: center;
 	display: block;
-	
+
 }
 
 .overlay{
@@ -347,16 +357,98 @@ footer{
 
 }
 
+#overlayContent h1{
+	font-size: 33px;
+	display: block;
+}
+#overlayContent p{
+	font-size: 16px;
+	display: block;
+}
+
 
 
 }
-@media only screen and (min-width:768px) and (min-width:992px) {
 
+
+@media only screen and (min-width: 768px) and (max-width:992px) {
+#header{
+	background: url("../images/large-screen-banner.png") no-repeat center center/cover;	
+	display: none;
+}
+
+#header{
+	background: url("../images/mobile-banner.jpg") no-repeat center center/cover;
+	display: block;	
+}
 #logo >img{
 	position: absolute;
 	width: 180px;
 	top: 20px;
-	left: 5px;
+	left: 30px;
+	display: block;
+}
+
+
+#navigation{
+  text-decoration: none;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  display: block;
+}
+
+
+#navBtn{
+	background:transparent;
+	color: #fff;
+	font-size: 40px;
+	padding: 2px 20px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 30px;
+	right: 10px;
+	display: none;
+
+}
+#overlayContent{
+	width: 60%;
+	color: #fff;
+	margin: 5px auto 0 auto;
+	text-align: center;
+	display: block;
+
+}
+
+.overlay{
+	background-color: rgba(0,0,0,0.6);
+	padding: 220px  0px;
+	position: relative;
+	display: block;
+
+}
+
+#overlayContent h1{
+	font-size: 42px;
+	display: block;
+}
+#overlayContent p{
+	font-size: 18px;
+	display: block;
+}
+
+
+
+}
+@media only screen and (min-width:992px) {
+#logo >img{
+	position: absolute;
+	width: 180px;
+	top: 20px;
+	left: 40px;
 	display: block;
 }
 
@@ -366,7 +458,7 @@ footer{
   position: absolute;
   font-family: "Oleo Script", system-ui;
   top: 40px;
-  right: 10px;
+  right: 40px;
   display: block;
 }
 
@@ -391,10 +483,9 @@ footer{
 	margin: 5px auto 0 auto;
 	text-align: center;
 	display: block;
-	
-}
-
-
 
 }
 
+
+
+}
